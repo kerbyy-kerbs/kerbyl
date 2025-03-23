@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerby Dabalos - Resume</title>
+    <style>
+        
+
+        body {
+            background: #1a1a1a;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            display: flex;
+            background: black;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .left-column {
+            width: 40%;
+            padding: 20px;
+            background: #1a1a1a;
+            text-align: center;
+        }
+
+        .left-column img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            border: 5px solid #ffcc00;
+        }
+
+        .left-column h1, .left-column h2 {
+            color: #ffcc00;
+            margin: 10px 0;
+        }
+
+        .right-column {
+            width: 60%;
+            padding: 20px;
+        }
+
+        h3 {
+            background: #ffcc00;
+            padding: 10px;
+            color: black;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        p, li {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        .skills, .social-media {
+            margin-top: 20px;
+        }
+
+        .skills ul, .social-media ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .social-media li {
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bar {
+            width: 70%;
+            height: 5px;
+            background: gray;
+            position: relative;
+            border-radius: 5px;
+        }
+
+        .bar::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 70%;
+            background: #ffcc00;
+            border-radius: 5px;
+        }
+
+        .social-media a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .social-media a:hover {
+            color: #ff5733;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left-column">
+            <img src="https://lh3.googleusercontent.com/a/ACg8ocJWj6h7jWznsrkdhr_xuOx0ievP5QkYmouUU3xSDt-mZfs0ZLYxKtsKiBzh8YZWRfKq7d4YkFExaqbl4nJ9pGhKG8WI0tJA=s864-c-no" alt="Profile Picture">
+            <h1>Kerby Dabalos</h1>
+            <h2>Student</h2>
+        </div>
+
+        <div class="right-column">
+            <h3>My Contact</h3>
+            <p>Email: kerbydabalos5@gmail.com</p>
+            <p>Phone: 09103749712</p>
+            <p>Address: Purok Makugihon, Sto Niño, Tukuran, Zamboanga del Sur</p>
+
+            <h3>Career Objective</h3>
+            <p>To be a part of a professional editing team to enhance my skills and gain valuable experience.</p>
+
+            <h3>Personal Information</h3>
+            <ul>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Date of Birth:</strong> February 12, 2005</li>
+                <li><strong>Civil Status:</strong> Single</li>
+                <li><strong>Languages Spoken:</strong> Bisaya</li>
+            </ul>
+
+            <h3>Educational Background</h3>
+            <ul>
+                <li><strong>Senior High School:</strong> Tukuran Technical Vocational High School, Zamboanga del Sur (2022-2023)</li>
+                <li><strong>Primary:</strong> Sto Niño Central Elementary School, Tukuran, Zamboanga del Sur (2016-2017)</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <div class="skills">
+                <ul>
+                    <li>Video Editing <div class="bar"></div></li>
+                    <li>Videography <div class="bar"></div></li>
+                </ul>
+            </div>
+
+            <h3>Credentials</h3>
+            <ul>
+                <li>Food and Beverage NCII Certification</li>
+            </ul>
+
+            <h3>Social Media</h3>
+            <div class="social-media">
+                <ul>
+                    <li><a href="content://com.android.providers.media.documents/document/video%3A1000034733">Facebook</a></li>
+                    <li><a href="tiktok.com/@catchclutch">Tiktok</a></li>
+                    <li><a href="mailto:kerbydabalos8@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
